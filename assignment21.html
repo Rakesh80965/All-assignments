@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>
+            Nike support system
+        </title>
+        <style>
+            body{
+                background:linear-gradient(rgb(156, 122, 122,0),rgb(156, 122, 122,0),rgba(24, 24, 24, 1)),url(background-img.jpg);
+                background-size:cover;
+                background-position: center;
+                background-repeat:no-repeat;
+                
+                
+            }
+            logo{
+                width: 10px;
+            }
+            a{
+                padding: 40px;
+                color: black;
+                text-decoration: none;
+                font-size: 19px;                
+
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+
+
+                
+            }
+            nav ul{
+                background-color:whitesmoke;
+                height: 2rem;
+                border: 1px solid black;
+                border-radius: 15px;
+            }
+            main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 500px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                padding: 0%;
+            }
+            input{
+                margin: 5px;
+                border-radius: 5px;
+                border: none;
+                border-radius: 2px solid black;
+                padding: 10px;
+                background-color: whitesmoke;
+
+            }
+            #name{
+                width: 18rem;
+                height: 30px;
+            }
+            #email{
+                height: 30px;
+            }
+            #mag{
+                height: 130px;
+            }
+            button {
+                width: 8rem;
+                border-radius: 5px;
+                height: 40px;
+                padding-left: 10px;
+                border: none;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+                border-radius: 20px;
+
+            }
+            button#cancel {
+                background-color: red;
+                margin: 2px;
+            }
+            .button2 {
+                display: flex;
+                padding: 7px;
+                margin: 10px;
+
+            }
+            #cancel{
+                padding: 5px;
+            }
+            #logo{
+                width: 100px;
+                height: 120px;
+                padding: 10px;
+            }
+            .content{
+                color: white;
+                padding-bottom: 0px;
+            }
+            .content h1{
+                font-size: 40px;
+                text-align: center;
+            }
+            .content p{
+                font-size: 25px;
+                text-align: center;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <img id="logo" src="logo2-re.png" alt="logo">
+            <ul>
+            <a href="#">connect</a>
+            <a href="#">call</a>
+            <a href="#">email</a>
+            </ul>
+        </nav>
+        <main>
+            <div class="content">
+                <h1>connect us</h1>
+                <p>please feel free to ask us any question at any time <br>
+                          we will connect you within 24 hrs </p>
+            </div>
+            <form action="#">
+                <input id="name" type="text" for="name" name="name" placeholder="Name">
+                <input id="email" for="email" name="email" placeholder="Email">
+                <input id="mag" type="text" for="message" name="msg" placeholder="message">
+                <div class="button2">
+                <button id="cancel">cancle</button>
+                <button id="submit">submit</button>
+                </div>
+            </form>
+        </main>
+        
+    </body>
+</html>
